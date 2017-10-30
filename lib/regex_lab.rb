@@ -6,12 +6,12 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   text.scan(/\A[un]\z[ing]/i)
-  #binding.pry
+  binding.pry
 end
 
 def words_five_letters_long(text)
   text.scan(/\w{5}/i)
- binding.pry
+ #binding.pry
 
 end
 
