@@ -5,7 +5,7 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  text.grep(/\A[un]\z[ing]/i)
+  text.scan(/\A[un]\z[ing]/i)
   binding.pry
 end
 
